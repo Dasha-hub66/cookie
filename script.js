@@ -5,7 +5,7 @@ alert(cookies)
 for (let i = 0; i < cookies.length; i += 1) {
     if (cookies[i].split('=')[0] == 'user-name') {
         isCookieSaved = true
-        user_name = cookies[i].split('=')[1]
+        user_name = cookies[i].split('=')[1];
         break
     }
 }
